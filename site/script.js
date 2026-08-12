@@ -660,7 +660,7 @@
   const PLAYER_ID = getPlayerId();
 
   // ---------- VS Duel: client state + SSE ----------
-  const vs = { phase: "lobby", es: null, duelId: null, opponentName: null, hp: null, startHp: 6000, roundIndex: 0, totalRounds: 5, product: null, seconds: 15, timerHandle: null, answered: false, lastResult: null, endInfo: null, opponentGuessed: false };
+  const vs = { phase: "lobby", es: null, duelId: null, opponentName: null, hp: null, startHp: 6000, roundIndex: 0, totalRounds: 5, product: null, seconds: 15, timerHandle: null, answered: false, lastResult: null, endInfo: null, opponentGuessed: false, sseEverConnected: false };
 
   function vsCleanupConnection() {
     if (vs.es) { try { vs.es.close(); } catch (e) {} vs.es = null; }
@@ -680,6 +680,17 @@
     vsCleanupConnection();
     const es = new EventSource(`/api/duel/stream?playerId=${encodeURIComponent(PLAYER_ID)}`);
     vs.es = es;
+    es.addEventListener("open", () => { vs.sseEverConnected = true; });
+    es.addEventListener("error", () => {
+      // A public static deploy (e.g. GitHub Pages) has no VS backend at all: the
+      // connection never opens and keeps retrying forever. If it never succeeded
+      // even once, treat this as "unavailable" rather than looping silently.
+      if (!vs.sseEverConnected && (vs.phase === "searching" || vs.phase === "lobby")) {
+        vsCleanupConnection();
+        vs.phase = "unavailable";
+        if (location.hash === "#/vs") renderVs();
+      }
+    });
     es.addEventListener("matched", e => {
       const data = JSON.parse(e.data);
       vs.duelId = data.duelId; vs.opponentName = data.opponentName; vs.hp = data.hp; vs.startHp = data.startHp;
@@ -719,11 +730,14 @@
 
   function vsStartSearch() {
     vs.phase = "searching";
+    vs.sseEverConnected = false;
     vsConnectSSE();
     fetch("/api/duel/join", {
       method: "POST", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ playerId: PLAYER_ID, playerName: getPlayerName() })
-    }).catch(() => { vs.phase = "error"; renderVs(); });
+    }).then(res => {
+      if (!res.ok) { vsCleanupConnection(); vs.phase = "unavailable"; renderVs(); }
+    }).catch(() => { vsCleanupConnection(); vs.phase = "unavailable"; renderVs(); });
     renderVs();
   }
 
@@ -765,6 +779,16 @@
     if (vs.phase === "error") {
       view.innerHTML = `<div class="error-state"><p>לא הצלחנו להתחבר לשרת ה-VS.</p><button class="btn btn-primary" id="vs-retry-btn">נסו שוב</button></div>`;
       document.getElementById("vs-retry-btn").addEventListener("click", vsStartSearch);
+      return;
+    }
+    if (vs.phase === "unavailable") {
+      view.innerHTML = `
+        <div class="vs-hero">
+          <div class="vs-icon">🛠️</div>
+          <h2>VS לא זמין בגרסה הציבורית הזו</h2>
+          <p class="vs-honesty">מצב VS צריך שרת חי שמתאם בין שני שחקנים בזמן אמת, וגרסת האתר הציבורית הזו מוגשת כאתר סטטי בלבד, בלי שרת כזה. שני מצבי המשחק האחרים (נחשו מחיר, השוואת מדינות) עובדים באתר הזה במלואם.</p>
+          <a class="btn btn-primary" href="#/play">שחקו במצבים האחרים</a>
+        </div>`;
       return;
     }
     if (vs.phase === "matched") {
