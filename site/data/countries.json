@@ -1,0 +1,2632 @@
+{
+ "items": [
+  {
+   "item_id": "bigmac",
+   "item_name": "ביג מק (McDonald's)",
+   "source": "Big Mac Index, The Economist",
+   "date": "2026-08-10",
+   "countries": [
+    {
+     "id": "ch",
+     "country_he": "שוויץ",
+     "flag_code": "ch",
+     "price_usd": 9.04,
+     "local_price": 7.3,
+     "local_currency": "CHF"
+    },
+    {
+     "id": "uy",
+     "country_he": "אורוגוואי",
+     "flag_code": "uy",
+     "price_usd": 8.94,
+     "local_price": 359,
+     "local_currency": "UYU"
+    },
+    {
+     "id": "no",
+     "country_he": "נורווגיה",
+     "flag_code": "no",
+     "price_usd": 8.05,
+     "local_price": 78,
+     "local_currency": "NOK"
+    },
+    {
+     "id": "co",
+     "country_he": "קולומביה",
+     "flag_code": "co",
+     "price_usd": 8.0,
+     "local_price": 25900,
+     "local_currency": "COP"
+    },
+    {
+     "id": "il",
+     "country_he": "ישראל",
+     "flag_code": "il",
+     "price_usd": 7.67,
+     "local_price": 23,
+     "local_currency": "ILS"
+    },
+    {
+     "id": "gb",
+     "country_he": "בריטניה",
+     "flag_code": "gb",
+     "price_usd": 7.4,
+     "local_price": 5.49,
+     "local_currency": "GBP"
+    },
+    {
+     "id": "fr",
+     "country_he": "צרפת",
+     "flag_code": "fr",
+     "price_usd": 7.37,
+     "local_price": 6.35,
+     "local_currency": "EUR"
+    },
+    {
+     "id": "de",
+     "country_he": "גרמניה",
+     "flag_code": "de",
+     "price_usd": 7.31,
+     "local_price": 6.3,
+     "local_currency": "EUR"
+    },
+    {
+     "id": "se",
+     "country_he": "שוודיה",
+     "flag_code": "se",
+     "price_usd": 7.16,
+     "local_price": 69,
+     "local_currency": "SEK"
+    },
+    {
+     "id": "us",
+     "country_he": "ארצות הברית",
+     "flag_code": "us",
+     "price_usd": 6.22,
+     "local_price": 6.22,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ua",
+     "country_he": "אוקראינה",
+     "flag_code": "ua",
+     "price_usd": 3.34,
+     "local_price": 149,
+     "local_currency": "UAH"
+    },
+    {
+     "id": "hk",
+     "country_he": "הונג קונג",
+     "flag_code": "hk",
+     "price_usd": 3.25,
+     "local_price": 25.5,
+     "local_currency": "HKD"
+    },
+    {
+     "id": "jp",
+     "country_he": "יפן",
+     "flag_code": "jp",
+     "price_usd": 3.08,
+     "local_price": 500,
+     "local_currency": "JPY"
+    },
+    {
+     "id": "vn",
+     "country_he": "וייטנאם",
+     "flag_code": "vn",
+     "price_usd": 2.89,
+     "local_price": 76000,
+     "local_currency": "VND"
+    },
+    {
+     "id": "eg",
+     "country_he": "מצרים",
+     "flag_code": "eg",
+     "price_usd": 2.87,
+     "local_price": 145,
+     "local_currency": "EGP"
+    },
+    {
+     "id": "ph",
+     "country_he": "הפיליפינים",
+     "flag_code": "ph",
+     "price_usd": 2.74,
+     "local_price": 169,
+     "local_currency": "PHP"
+    },
+    {
+     "id": "in",
+     "country_he": "הודו",
+     "flag_code": "in",
+     "price_usd": 2.45,
+     "local_price": 236.25,
+     "local_currency": "INR"
+    },
+    {
+     "id": "tw",
+     "country_he": "טייוואן",
+     "flag_code": "tw",
+     "price_usd": 2.42,
+     "local_price": 78,
+     "local_currency": "TWD"
+    },
+    {
+     "id": "id",
+     "country_he": "אינדונזיה",
+     "flag_code": "id",
+     "price_usd": 2.38,
+     "local_price": 43000,
+     "local_currency": "IDR"
+    }
+   ]
+  },
+  {
+   "item_id": "milk",
+   "item_name": "ליטר חלב",
+   "source": "Numbeo, Cost of Living Database",
+   "date": "2026-08-11",
+   "countries": [
+    {
+     "id": "kz",
+     "country_he": "קזחסטן",
+     "flag_code": "kz",
+     "price_usd": 1.37,
+     "local_price": 1.37,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pt",
+     "country_he": "פורטוגל",
+     "flag_code": "pt",
+     "price_usd": 1.1,
+     "local_price": 1.1,
+     "local_currency": "USD"
+    },
+    {
+     "id": "gr",
+     "country_he": "יוון",
+     "flag_code": "gr",
+     "price_usd": 1.75,
+     "local_price": 1.75,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lv",
+     "country_he": "לטביה",
+     "flag_code": "lv",
+     "price_usd": 1.26,
+     "local_price": 1.26,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ir",
+     "country_he": "איראן",
+     "flag_code": "ir",
+     "price_usd": 0.64,
+     "local_price": 0.64,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ma",
+     "country_he": "מרוקו",
+     "flag_code": "ma",
+     "price_usd": 0.91,
+     "local_price": 0.91,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pa",
+     "country_he": "פנמה",
+     "flag_code": "pa",
+     "price_usd": 1.84,
+     "local_price": 1.84,
+     "local_currency": "USD"
+    },
+    {
+     "id": "iq",
+     "country_he": "עיראק",
+     "flag_code": "iq",
+     "price_usd": 1.16,
+     "local_price": 1.16,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cl",
+     "country_he": "צ'ילה",
+     "flag_code": "cl",
+     "price_usd": 1.24,
+     "local_price": 1.24,
+     "local_currency": "USD"
+    },
+    {
+     "id": "np",
+     "country_he": "נפאל",
+     "flag_code": "np",
+     "price_usd": 0.66,
+     "local_price": 0.66,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ar",
+     "country_he": "ארגנטינה",
+     "flag_code": "ar",
+     "price_usd": 1.38,
+     "local_price": 1.38,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ua",
+     "country_he": "אוקראינה",
+     "flag_code": "ua",
+     "price_usd": 1.19,
+     "local_price": 1.19,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bh",
+     "country_he": "בחריין",
+     "flag_code": "bh",
+     "price_usd": 1.54,
+     "local_price": 1.54,
+     "local_currency": "USD"
+    },
+    {
+     "id": "in",
+     "country_he": "הודו",
+     "flag_code": "in",
+     "price_usd": 0.64,
+     "local_price": 0.64,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ca",
+     "country_he": "קנדה",
+     "flag_code": "ca",
+     "price_usd": 2.23,
+     "local_price": 2.23,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tr",
+     "country_he": "טורקיה",
+     "flag_code": "tr",
+     "price_usd": 1.02,
+     "local_price": 1.02,
+     "local_currency": "USD"
+    },
+    {
+     "id": "be",
+     "country_he": "בלגיה",
+     "flag_code": "be",
+     "price_usd": 1.32,
+     "local_price": 1.32,
+     "local_currency": "USD"
+    },
+    {
+     "id": "fi",
+     "country_he": "פינלנד",
+     "flag_code": "fi",
+     "price_usd": 1.36,
+     "local_price": 1.36,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tw",
+     "country_he": "טייוואן",
+     "flag_code": "tw",
+     "price_usd": 3.03,
+     "local_price": 3.03,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mk",
+     "country_he": "צפון מקדוניה",
+     "flag_code": "mk",
+     "price_usd": 1.31,
+     "local_price": 1.31,
+     "local_currency": "USD"
+    },
+    {
+     "id": "za",
+     "country_he": "דרום אפריקה",
+     "flag_code": "za",
+     "price_usd": 1.23,
+     "local_price": 1.23,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ge",
+     "country_he": "גאורגיה",
+     "flag_code": "ge",
+     "price_usd": 2.05,
+     "local_price": 2.05,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pe",
+     "country_he": "פרו",
+     "flag_code": "pe",
+     "price_usd": 1.47,
+     "local_price": 1.47,
+     "local_currency": "USD"
+    },
+    {
+     "id": "de",
+     "country_he": "גרמניה",
+     "flag_code": "de",
+     "price_usd": 1.35,
+     "local_price": 1.35,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pr",
+     "country_he": "פוארטו ריקו",
+     "flag_code": "pr",
+     "price_usd": 2.15,
+     "local_price": 2.15,
+     "local_currency": "USD"
+    },
+    {
+     "id": "us",
+     "country_he": "ארצות הברית",
+     "flag_code": "us",
+     "price_usd": 1.06,
+     "local_price": 1.06,
+     "local_currency": "USD"
+    },
+    {
+     "id": "th",
+     "country_he": "תאילנד",
+     "flag_code": "th",
+     "price_usd": 1.82,
+     "local_price": 1.82,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cr",
+     "country_he": "קוסטה ריקה",
+     "flag_code": "cr",
+     "price_usd": 2.37,
+     "local_price": 2.37,
+     "local_currency": "USD"
+    },
+    {
+     "id": "se",
+     "country_he": "שוודיה",
+     "flag_code": "se",
+     "price_usd": 1.71,
+     "local_price": 1.71,
+     "local_currency": "USD"
+    },
+    {
+     "id": "vn",
+     "country_he": "וייטנאם",
+     "flag_code": "vn",
+     "price_usd": 1.46,
+     "local_price": 1.46,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pl",
+     "country_he": "פולין",
+     "flag_code": "pl",
+     "price_usd": 1.06,
+     "local_price": 1.06,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bg",
+     "country_he": "בולגריה",
+     "flag_code": "bg",
+     "price_usd": 1.85,
+     "local_price": 1.85,
+     "local_currency": "USD"
+    },
+    {
+     "id": "jo",
+     "country_he": "ירדן",
+     "flag_code": "jo",
+     "price_usd": 1.42,
+     "local_price": 1.42,
+     "local_currency": "USD"
+    },
+    {
+     "id": "kw",
+     "country_he": "כווית",
+     "flag_code": "kw",
+     "price_usd": 1.58,
+     "local_price": 1.58,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ng",
+     "country_he": "ניגריה",
+     "flag_code": "ng",
+     "price_usd": 2.78,
+     "local_price": 2.78,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tn",
+     "country_he": "תוניסיה",
+     "flag_code": "tn",
+     "price_usd": 0.5,
+     "local_price": 0.5,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hr",
+     "country_he": "קרואטיה",
+     "flag_code": "hr",
+     "price_usd": 1.25,
+     "local_price": 1.25,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lk",
+     "country_he": "סרי לנקה",
+     "flag_code": "lk",
+     "price_usd": 1.55,
+     "local_price": 1.55,
+     "local_currency": "USD"
+    },
+    {
+     "id": "uy",
+     "country_he": "אורוגוואי",
+     "flag_code": "uy",
+     "price_usd": 1.21,
+     "local_price": 1.21,
+     "local_currency": "USD"
+    },
+    {
+     "id": "gb",
+     "country_he": "בריטניה",
+     "flag_code": "gb",
+     "price_usd": 1.69,
+     "local_price": 1.69,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ae",
+     "country_he": "איחוד האמירויות",
+     "flag_code": "ae",
+     "price_usd": 1.76,
+     "local_price": 1.76,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ke",
+     "country_he": "קניה",
+     "flag_code": "ke",
+     "price_usd": 0.76,
+     "local_price": 0.76,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ch",
+     "country_he": "שוויץ",
+     "flag_code": "ch",
+     "price_usd": 2.25,
+     "local_price": 2.25,
+     "local_currency": "USD"
+    },
+    {
+     "id": "es",
+     "country_he": "ספרד",
+     "flag_code": "es",
+     "price_usd": 1.22,
+     "local_price": 1.22,
+     "local_currency": "USD"
+    },
+    {
+     "id": "az",
+     "country_he": "אזרבייג'ן",
+     "flag_code": "az",
+     "price_usd": 1.45,
+     "local_price": 1.45,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cu",
+     "country_he": "קובה",
+     "flag_code": "cu",
+     "price_usd": 2.76,
+     "local_price": 2.76,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ve",
+     "country_he": "ונצואלה",
+     "flag_code": "ve",
+     "price_usd": 2.29,
+     "local_price": 2.29,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cz",
+     "country_he": "צ'כיה",
+     "flag_code": "cz",
+     "price_usd": 1.21,
+     "local_price": 1.21,
+     "local_currency": "USD"
+    },
+    {
+     "id": "il",
+     "country_he": "ישראל",
+     "flag_code": "il",
+     "price_usd": 2.56,
+     "local_price": 2.56,
+     "local_currency": "USD"
+    },
+    {
+     "id": "au",
+     "country_he": "אוסטרליה",
+     "flag_code": "au",
+     "price_usd": 1.77,
+     "local_price": 1.77,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ee",
+     "country_he": "אסטוניה",
+     "flag_code": "ee",
+     "price_usd": 1.15,
+     "local_price": 1.15,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hk",
+     "country_he": "הונג קונג",
+     "flag_code": "hk",
+     "price_usd": 3.01,
+     "local_price": 3.01,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cy",
+     "country_he": "קפריסין",
+     "flag_code": "cy",
+     "price_usd": 1.87,
+     "local_price": 1.87,
+     "local_currency": "USD"
+    },
+    {
+     "id": "my",
+     "country_he": "מלזיה",
+     "flag_code": "my",
+     "price_usd": 1.88,
+     "local_price": 1.88,
+     "local_currency": "USD"
+    },
+    {
+     "id": "om",
+     "country_he": "עומאן",
+     "flag_code": "om",
+     "price_usd": 2.32,
+     "local_price": 2.32,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ba",
+     "country_he": "בוסניה והרצגובינה",
+     "flag_code": "ba",
+     "price_usd": 1.3,
+     "local_price": 1.3,
+     "local_currency": "USD"
+    },
+    {
+     "id": "am",
+     "country_he": "ארמניה",
+     "flag_code": "am",
+     "price_usd": 1.59,
+     "local_price": 1.59,
+     "local_currency": "USD"
+    },
+    {
+     "id": "at",
+     "country_he": "אוסטריה",
+     "flag_code": "at",
+     "price_usd": 1.75,
+     "local_price": 1.75,
+     "local_currency": "USD"
+    },
+    {
+     "id": "kr",
+     "country_he": "דרום קוריאה",
+     "flag_code": "kr",
+     "price_usd": 2.06,
+     "local_price": 2.06,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lu",
+     "country_he": "לוקסמבורג",
+     "flag_code": "lu",
+     "price_usd": 1.71,
+     "local_price": 1.71,
+     "local_currency": "USD"
+    },
+    {
+     "id": "br",
+     "country_he": "ברזיל",
+     "flag_code": "br",
+     "price_usd": 1.07,
+     "local_price": 1.07,
+     "local_currency": "USD"
+    },
+    {
+     "id": "dz",
+     "country_he": "אלג'יריה",
+     "flag_code": "dz",
+     "price_usd": 0.95,
+     "local_price": 0.95,
+     "local_currency": "USD"
+    },
+    {
+     "id": "si",
+     "country_he": "סלובניה",
+     "flag_code": "si",
+     "price_usd": 1.45,
+     "local_price": 1.45,
+     "local_currency": "USD"
+    },
+    {
+     "id": "co",
+     "country_he": "קולומביה",
+     "flag_code": "co",
+     "price_usd": 1.49,
+     "local_price": 1.49,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ec",
+     "country_he": "אקוודור",
+     "flag_code": "ec",
+     "price_usd": 1.06,
+     "local_price": 1.06,
+     "local_currency": "USD"
+    },
+    {
+     "id": "xk",
+     "country_he": "קוסובו",
+     "flag_code": "xk",
+     "price_usd": 1.44,
+     "local_price": 1.44,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hu",
+     "country_he": "הונגריה",
+     "flag_code": "hu",
+     "price_usd": 1.25,
+     "local_price": 1.25,
+     "local_currency": "USD"
+    },
+    {
+     "id": "jp",
+     "country_he": "יפן",
+     "flag_code": "jp",
+     "price_usd": 1.45,
+     "local_price": 1.45,
+     "local_currency": "USD"
+    },
+    {
+     "id": "md",
+     "country_he": "מולדובה",
+     "flag_code": "md",
+     "price_usd": 1.26,
+     "local_price": 1.26,
+     "local_currency": "USD"
+    },
+    {
+     "id": "by",
+     "country_he": "בלארוס",
+     "flag_code": "by",
+     "price_usd": 0.88,
+     "local_price": 0.88,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mu",
+     "country_he": "מאוריציוס",
+     "flag_code": "mu",
+     "price_usd": 1.47,
+     "local_price": 1.47,
+     "local_currency": "USD"
+    },
+    {
+     "id": "al",
+     "country_he": "אלבניה",
+     "flag_code": "al",
+     "price_usd": 2.18,
+     "local_price": 2.18,
+     "local_currency": "USD"
+    },
+    {
+     "id": "nz",
+     "country_he": "ניו זילנד",
+     "flag_code": "nz",
+     "price_usd": 1.85,
+     "local_price": 1.85,
+     "local_currency": "USD"
+    },
+    {
+     "id": "it",
+     "country_he": "איטליה",
+     "flag_code": "it",
+     "price_usd": 1.65,
+     "local_price": 1.65,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sg",
+     "country_he": "סינגפור",
+     "flag_code": "sg",
+     "price_usd": 3.11,
+     "local_price": 3.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "eg",
+     "country_he": "מצרים",
+     "flag_code": "eg",
+     "price_usd": 0.91,
+     "local_price": 0.91,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bo",
+     "country_he": "בוליביה",
+     "flag_code": "bo",
+     "price_usd": 0.66,
+     "local_price": 0.66,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mt",
+     "country_he": "מלטה",
+     "flag_code": "mt",
+     "price_usd": 1.35,
+     "local_price": 1.35,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ru",
+     "country_he": "רוסיה",
+     "flag_code": "ru",
+     "price_usd": 1.19,
+     "local_price": 1.19,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sa",
+     "country_he": "ערב הסעודית",
+     "flag_code": "sa",
+     "price_usd": 1.7,
+     "local_price": 1.7,
+     "local_currency": "USD"
+    },
+    {
+     "id": "nl",
+     "country_he": "הולנד",
+     "flag_code": "nl",
+     "price_usd": 1.35,
+     "local_price": 1.35,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pk",
+     "country_he": "פקיסטן",
+     "flag_code": "pk",
+     "price_usd": 0.82,
+     "local_price": 0.82,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cn",
+     "country_he": "סין",
+     "flag_code": "cn",
+     "price_usd": 1.78,
+     "local_price": 1.78,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ie",
+     "country_he": "אירלנד",
+     "flag_code": "ie",
+     "price_usd": 1.61,
+     "local_price": 1.61,
+     "local_currency": "USD"
+    },
+    {
+     "id": "qa",
+     "country_he": "קטאר",
+     "flag_code": "qa",
+     "price_usd": 2.09,
+     "local_price": 2.09,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sk",
+     "country_he": "סלובקיה",
+     "flag_code": "sk",
+     "price_usd": 1.11,
+     "local_price": 1.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "fr",
+     "country_he": "צרפת",
+     "flag_code": "fr",
+     "price_usd": 1.37,
+     "local_price": 1.37,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lt",
+     "country_he": "ליטא",
+     "flag_code": "lt",
+     "price_usd": 1.58,
+     "local_price": 1.58,
+     "local_currency": "USD"
+    },
+    {
+     "id": "rs",
+     "country_he": "סרביה",
+     "flag_code": "rs",
+     "price_usd": 1.39,
+     "local_price": 1.39,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ro",
+     "country_he": "רומניה",
+     "flag_code": "ro",
+     "price_usd": 1.57,
+     "local_price": 1.57,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ph",
+     "country_he": "הפיליפינים",
+     "flag_code": "ph",
+     "price_usd": 1.77,
+     "local_price": 1.77,
+     "local_currency": "USD"
+    },
+    {
+     "id": "uz",
+     "country_he": "אוזבקיסטן",
+     "flag_code": "uz",
+     "price_usd": 1.19,
+     "local_price": 1.19,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bd",
+     "country_he": "בנגלדש",
+     "flag_code": "bd",
+     "price_usd": 0.74,
+     "local_price": 0.74,
+     "local_currency": "USD"
+    },
+    {
+     "id": "no",
+     "country_he": "נורווגיה",
+     "flag_code": "no",
+     "price_usd": 2.45,
+     "local_price": 2.45,
+     "local_currency": "USD"
+    },
+    {
+     "id": "dk",
+     "country_he": "דנמרק",
+     "flag_code": "dk",
+     "price_usd": 2.13,
+     "local_price": 2.13,
+     "local_currency": "USD"
+    },
+    {
+     "id": "do",
+     "country_he": "הרפובליקה הדומיניקנית",
+     "flag_code": "do",
+     "price_usd": 1.37,
+     "local_price": 1.37,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mx",
+     "country_he": "מקסיקו",
+     "flag_code": "mx",
+     "price_usd": 1.74,
+     "local_price": 1.74,
+     "local_currency": "USD"
+    },
+    {
+     "id": "zw",
+     "country_he": "זימבבואה",
+     "flag_code": "zw",
+     "price_usd": 1.53,
+     "local_price": 1.53,
+     "local_currency": "USD"
+    },
+    {
+     "id": "me",
+     "country_he": "מונטנגרו",
+     "flag_code": "me",
+     "price_usd": 1.3,
+     "local_price": 1.3,
+     "local_currency": "USD"
+    },
+    {
+     "id": "id",
+     "country_he": "אינדונזיה",
+     "flag_code": "id",
+     "price_usd": 1.2,
+     "local_price": 1.2,
+     "local_currency": "USD"
+    }
+   ]
+  },
+  {
+   "item_id": "gasoline",
+   "item_name": "ליטר בנזין",
+   "source": "Numbeo, Cost of Living Database",
+   "date": "2026-07-25",
+   "countries": [
+    {
+     "id": "kz",
+     "country_he": "קזחסטן",
+     "flag_code": "kz",
+     "price_usd": 0.61,
+     "local_price": 0.61,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pt",
+     "country_he": "פורטוגל",
+     "flag_code": "pt",
+     "price_usd": 2.11,
+     "local_price": 2.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "gr",
+     "country_he": "יוון",
+     "flag_code": "gr",
+     "price_usd": 2.19,
+     "local_price": 2.19,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lv",
+     "country_he": "לטביה",
+     "flag_code": "lv",
+     "price_usd": 1.95,
+     "local_price": 1.95,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ir",
+     "country_he": "איראן",
+     "flag_code": "ir",
+     "price_usd": 0.3,
+     "local_price": 0.3,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ma",
+     "country_he": "מרוקו",
+     "flag_code": "ma",
+     "price_usd": 1.52,
+     "local_price": 1.52,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pa",
+     "country_he": "פנמה",
+     "flag_code": "pa",
+     "price_usd": 1.08,
+     "local_price": 1.08,
+     "local_currency": "USD"
+    },
+    {
+     "id": "iq",
+     "country_he": "עיראק",
+     "flag_code": "iq",
+     "price_usd": 0.63,
+     "local_price": 0.63,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cl",
+     "country_he": "צ'ילה",
+     "flag_code": "cl",
+     "price_usd": 1.49,
+     "local_price": 1.49,
+     "local_currency": "USD"
+    },
+    {
+     "id": "np",
+     "country_he": "נפאל",
+     "flag_code": "np",
+     "price_usd": 1.21,
+     "local_price": 1.21,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ar",
+     "country_he": "ארגנטינה",
+     "flag_code": "ar",
+     "price_usd": 1.22,
+     "local_price": 1.22,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ua",
+     "country_he": "אוקראינה",
+     "flag_code": "ua",
+     "price_usd": 1.55,
+     "local_price": 1.55,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bh",
+     "country_he": "בחריין",
+     "flag_code": "bh",
+     "price_usd": 0.59,
+     "local_price": 0.59,
+     "local_currency": "USD"
+    },
+    {
+     "id": "in",
+     "country_he": "הודו",
+     "flag_code": "in",
+     "price_usd": 1.09,
+     "local_price": 1.09,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ca",
+     "country_he": "קנדה",
+     "flag_code": "ca",
+     "price_usd": 1.18,
+     "local_price": 1.18,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tr",
+     "country_he": "טורקיה",
+     "flag_code": "tr",
+     "price_usd": 1.3,
+     "local_price": 1.3,
+     "local_currency": "USD"
+    },
+    {
+     "id": "be",
+     "country_he": "בלגיה",
+     "flag_code": "be",
+     "price_usd": 1.98,
+     "local_price": 1.98,
+     "local_currency": "USD"
+    },
+    {
+     "id": "fi",
+     "country_he": "פינלנד",
+     "flag_code": "fi",
+     "price_usd": 2.23,
+     "local_price": 2.23,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tw",
+     "country_he": "טייוואן",
+     "flag_code": "tw",
+     "price_usd": 1.01,
+     "local_price": 1.01,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mk",
+     "country_he": "צפון מקדוניה",
+     "flag_code": "mk",
+     "price_usd": 1.5,
+     "local_price": 1.5,
+     "local_currency": "USD"
+    },
+    {
+     "id": "za",
+     "country_he": "דרום אפריקה",
+     "flag_code": "za",
+     "price_usd": 1.45,
+     "local_price": 1.45,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ge",
+     "country_he": "גאורגיה",
+     "flag_code": "ge",
+     "price_usd": 1.32,
+     "local_price": 1.32,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pe",
+     "country_he": "פרו",
+     "flag_code": "pe",
+     "price_usd": 1.58,
+     "local_price": 1.58,
+     "local_currency": "USD"
+    },
+    {
+     "id": "de",
+     "country_he": "גרמניה",
+     "flag_code": "de",
+     "price_usd": 2.11,
+     "local_price": 2.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pr",
+     "country_he": "פוארטו ריקו",
+     "flag_code": "pr",
+     "price_usd": 0.99,
+     "local_price": 0.99,
+     "local_currency": "USD"
+    },
+    {
+     "id": "us",
+     "country_he": "ארצות הברית",
+     "flag_code": "us",
+     "price_usd": 1.01,
+     "local_price": 1.01,
+     "local_currency": "USD"
+    },
+    {
+     "id": "th",
+     "country_he": "תאילנד",
+     "flag_code": "th",
+     "price_usd": 1.35,
+     "local_price": 1.35,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cr",
+     "country_he": "קוסטה ריקה",
+     "flag_code": "cr",
+     "price_usd": 1.57,
+     "local_price": 1.57,
+     "local_currency": "USD"
+    },
+    {
+     "id": "se",
+     "country_he": "שוודיה",
+     "flag_code": "se",
+     "price_usd": 1.89,
+     "local_price": 1.89,
+     "local_currency": "USD"
+    },
+    {
+     "id": "vn",
+     "country_he": "וייטנאם",
+     "flag_code": "vn",
+     "price_usd": 0.87,
+     "local_price": 0.87,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pl",
+     "country_he": "פולין",
+     "flag_code": "pl",
+     "price_usd": 1.63,
+     "local_price": 1.63,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bg",
+     "country_he": "בולגריה",
+     "flag_code": "bg",
+     "price_usd": 1.63,
+     "local_price": 1.63,
+     "local_currency": "USD"
+    },
+    {
+     "id": "jo",
+     "country_he": "ירדן",
+     "flag_code": "jo",
+     "price_usd": 1.55,
+     "local_price": 1.55,
+     "local_currency": "USD"
+    },
+    {
+     "id": "kw",
+     "country_he": "כווית",
+     "flag_code": "kw",
+     "price_usd": 0.34,
+     "local_price": 0.34,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ng",
+     "country_he": "ניגריה",
+     "flag_code": "ng",
+     "price_usd": 0.57,
+     "local_price": 0.57,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tn",
+     "country_he": "תוניסיה",
+     "flag_code": "tn",
+     "price_usd": 0.86,
+     "local_price": 0.86,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hr",
+     "country_he": "קרואטיה",
+     "flag_code": "hr",
+     "price_usd": 1.82,
+     "local_price": 1.82,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lk",
+     "country_he": "סרי לנקה",
+     "flag_code": "lk",
+     "price_usd": 1.18,
+     "local_price": 1.18,
+     "local_currency": "USD"
+    },
+    {
+     "id": "uy",
+     "country_he": "אורוגוואי",
+     "flag_code": "uy",
+     "price_usd": 2.04,
+     "local_price": 2.04,
+     "local_currency": "USD"
+    },
+    {
+     "id": "gb",
+     "country_he": "בריטניה",
+     "flag_code": "gb",
+     "price_usd": 1.98,
+     "local_price": 1.98,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ae",
+     "country_he": "איחוד האמירויות",
+     "flag_code": "ae",
+     "price_usd": 0.87,
+     "local_price": 0.87,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ke",
+     "country_he": "קניה",
+     "flag_code": "ke",
+     "price_usd": 1.49,
+     "local_price": 1.49,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ch",
+     "country_he": "שוויץ",
+     "flag_code": "ch",
+     "price_usd": 2.27,
+     "local_price": 2.27,
+     "local_currency": "USD"
+    },
+    {
+     "id": "es",
+     "country_he": "ספרד",
+     "flag_code": "es",
+     "price_usd": 1.74,
+     "local_price": 1.74,
+     "local_currency": "USD"
+    },
+    {
+     "id": "az",
+     "country_he": "אזרבייג'ן",
+     "flag_code": "az",
+     "price_usd": 0.66,
+     "local_price": 0.66,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cu",
+     "country_he": "קובה",
+     "flag_code": "cu",
+     "price_usd": 1.26,
+     "local_price": 1.26,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ve",
+     "country_he": "ונצואלה",
+     "flag_code": "ve",
+     "price_usd": 0.65,
+     "local_price": 0.65,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cz",
+     "country_he": "צ'כיה",
+     "flag_code": "cz",
+     "price_usd": 1.83,
+     "local_price": 1.83,
+     "local_currency": "USD"
+    },
+    {
+     "id": "il",
+     "country_he": "ישראל",
+     "flag_code": "il",
+     "price_usd": 2.63,
+     "local_price": 2.63,
+     "local_currency": "USD"
+    },
+    {
+     "id": "au",
+     "country_he": "אוסטרליה",
+     "flag_code": "au",
+     "price_usd": 1.29,
+     "local_price": 1.29,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ee",
+     "country_he": "אסטוניה",
+     "flag_code": "ee",
+     "price_usd": 1.95,
+     "local_price": 1.95,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hk",
+     "country_he": "הונג קונג",
+     "flag_code": "hk",
+     "price_usd": 3.96,
+     "local_price": 3.96,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cy",
+     "country_he": "קפריסין",
+     "flag_code": "cy",
+     "price_usd": 1.72,
+     "local_price": 1.72,
+     "local_currency": "USD"
+    },
+    {
+     "id": "my",
+     "country_he": "מלזיה",
+     "flag_code": "my",
+     "price_usd": 0.63,
+     "local_price": 0.63,
+     "local_currency": "USD"
+    },
+    {
+     "id": "om",
+     "country_he": "עומאן",
+     "flag_code": "om",
+     "price_usd": 0.62,
+     "local_price": 0.62,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ba",
+     "country_he": "בוסניה והרצגובינה",
+     "flag_code": "ba",
+     "price_usd": 1.59,
+     "local_price": 1.59,
+     "local_currency": "USD"
+    },
+    {
+     "id": "am",
+     "country_he": "ארמניה",
+     "flag_code": "am",
+     "price_usd": 1.48,
+     "local_price": 1.48,
+     "local_currency": "USD"
+    },
+    {
+     "id": "at",
+     "country_he": "אוסטריה",
+     "flag_code": "at",
+     "price_usd": 1.89,
+     "local_price": 1.89,
+     "local_currency": "USD"
+    },
+    {
+     "id": "kr",
+     "country_he": "דרום קוריאה",
+     "flag_code": "kr",
+     "price_usd": 1.27,
+     "local_price": 1.27,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lu",
+     "country_he": "לוקסמבורג",
+     "flag_code": "lu",
+     "price_usd": 1.91,
+     "local_price": 1.91,
+     "local_currency": "USD"
+    },
+    {
+     "id": "br",
+     "country_he": "ברזיל",
+     "flag_code": "br",
+     "price_usd": 1.24,
+     "local_price": 1.24,
+     "local_currency": "USD"
+    },
+    {
+     "id": "dz",
+     "country_he": "אלג'יריה",
+     "flag_code": "dz",
+     "price_usd": 0.35,
+     "local_price": 0.35,
+     "local_currency": "USD"
+    },
+    {
+     "id": "si",
+     "country_he": "סלובניה",
+     "flag_code": "si",
+     "price_usd": 1.76,
+     "local_price": 1.76,
+     "local_currency": "USD"
+    },
+    {
+     "id": "co",
+     "country_he": "קולומביה",
+     "flag_code": "co",
+     "price_usd": 1.32,
+     "local_price": 1.32,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ec",
+     "country_he": "אקוודור",
+     "flag_code": "ec",
+     "price_usd": 0.8,
+     "local_price": 0.8,
+     "local_currency": "USD"
+    },
+    {
+     "id": "xk",
+     "country_he": "קוסובו",
+     "flag_code": "xk",
+     "price_usd": 1.55,
+     "local_price": 1.55,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hu",
+     "country_he": "הונגריה",
+     "flag_code": "hu",
+     "price_usd": 1.89,
+     "local_price": 1.89,
+     "local_currency": "USD"
+    },
+    {
+     "id": "jp",
+     "country_he": "יפן",
+     "flag_code": "jp",
+     "price_usd": 1.08,
+     "local_price": 1.08,
+     "local_currency": "USD"
+    },
+    {
+     "id": "md",
+     "country_he": "מולדובה",
+     "flag_code": "md",
+     "price_usd": 1.58,
+     "local_price": 1.58,
+     "local_currency": "USD"
+    },
+    {
+     "id": "by",
+     "country_he": "בלארוס",
+     "flag_code": "by",
+     "price_usd": 0.9,
+     "local_price": 0.9,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mu",
+     "country_he": "מאוריציוס",
+     "flag_code": "mu",
+     "price_usd": 1.43,
+     "local_price": 1.43,
+     "local_currency": "USD"
+    },
+    {
+     "id": "al",
+     "country_he": "אלבניה",
+     "flag_code": "al",
+     "price_usd": 2.23,
+     "local_price": 2.23,
+     "local_currency": "USD"
+    },
+    {
+     "id": "nz",
+     "country_he": "ניו זילנד",
+     "flag_code": "nz",
+     "price_usd": 1.75,
+     "local_price": 1.75,
+     "local_currency": "USD"
+    },
+    {
+     "id": "it",
+     "country_he": "איטליה",
+     "flag_code": "it",
+     "price_usd": 2.07,
+     "local_price": 2.07,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sg",
+     "country_he": "סינגפור",
+     "flag_code": "sg",
+     "price_usd": 2.47,
+     "local_price": 2.47,
+     "local_currency": "USD"
+    },
+    {
+     "id": "eg",
+     "country_he": "מצרים",
+     "flag_code": "eg",
+     "price_usd": 0.44,
+     "local_price": 0.44,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bo",
+     "country_he": "בוליביה",
+     "flag_code": "bo",
+     "price_usd": 0.5,
+     "local_price": 0.5,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mt",
+     "country_he": "מלטה",
+     "flag_code": "mt",
+     "price_usd": 1.55,
+     "local_price": 1.55,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ru",
+     "country_he": "רוסיה",
+     "flag_code": "ru",
+     "price_usd": 0.82,
+     "local_price": 0.82,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sa",
+     "country_he": "ערב הסעודית",
+     "flag_code": "sa",
+     "price_usd": 0.62,
+     "local_price": 0.62,
+     "local_currency": "USD"
+    },
+    {
+     "id": "nl",
+     "country_he": "הולנד",
+     "flag_code": "nl",
+     "price_usd": 2.43,
+     "local_price": 2.43,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pk",
+     "country_he": "פקיסטן",
+     "flag_code": "pk",
+     "price_usd": 1.17,
+     "local_price": 1.17,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cn",
+     "country_he": "סין",
+     "flag_code": "cn",
+     "price_usd": 1.24,
+     "local_price": 1.24,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ie",
+     "country_he": "אירלנד",
+     "flag_code": "ie",
+     "price_usd": 2.07,
+     "local_price": 2.07,
+     "local_currency": "USD"
+    },
+    {
+     "id": "qa",
+     "country_he": "קטאר",
+     "flag_code": "qa",
+     "price_usd": 0.56,
+     "local_price": 0.56,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sk",
+     "country_he": "סלובקיה",
+     "flag_code": "sk",
+     "price_usd": 1.86,
+     "local_price": 1.86,
+     "local_currency": "USD"
+    },
+    {
+     "id": "fr",
+     "country_he": "צרפת",
+     "flag_code": "fr",
+     "price_usd": 2.13,
+     "local_price": 2.13,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lt",
+     "country_he": "ליטא",
+     "flag_code": "lt",
+     "price_usd": 1.87,
+     "local_price": 1.87,
+     "local_currency": "USD"
+    },
+    {
+     "id": "rs",
+     "country_he": "סרביה",
+     "flag_code": "rs",
+     "price_usd": 1.87,
+     "local_price": 1.87,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ro",
+     "country_he": "רומניה",
+     "flag_code": "ro",
+     "price_usd": 1.8,
+     "local_price": 1.8,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ph",
+     "country_he": "הפיליפינים",
+     "flag_code": "ph",
+     "price_usd": 1.12,
+     "local_price": 1.12,
+     "local_currency": "USD"
+    },
+    {
+     "id": "uz",
+     "country_he": "אוזבקיסטן",
+     "flag_code": "uz",
+     "price_usd": 1.12,
+     "local_price": 1.12,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bd",
+     "country_he": "בנגלדש",
+     "flag_code": "bd",
+     "price_usd": 1.07,
+     "local_price": 1.07,
+     "local_currency": "USD"
+    },
+    {
+     "id": "no",
+     "country_he": "נורווגיה",
+     "flag_code": "no",
+     "price_usd": 2.27,
+     "local_price": 2.27,
+     "local_currency": "USD"
+    },
+    {
+     "id": "dk",
+     "country_he": "דנמרק",
+     "flag_code": "dk",
+     "price_usd": 2.33,
+     "local_price": 2.33,
+     "local_currency": "USD"
+    },
+    {
+     "id": "do",
+     "country_he": "הרפובליקה הדומיניקנית",
+     "flag_code": "do",
+     "price_usd": 1.38,
+     "local_price": 1.38,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mx",
+     "country_he": "מקסיקו",
+     "flag_code": "mx",
+     "price_usd": 1.52,
+     "local_price": 1.52,
+     "local_currency": "USD"
+    },
+    {
+     "id": "zw",
+     "country_he": "זימבבואה",
+     "flag_code": "zw",
+     "price_usd": 1.71,
+     "local_price": 1.71,
+     "local_currency": "USD"
+    },
+    {
+     "id": "me",
+     "country_he": "מונטנגרו",
+     "flag_code": "me",
+     "price_usd": 1.76,
+     "local_price": 1.76,
+     "local_currency": "USD"
+    },
+    {
+     "id": "id",
+     "country_he": "אינדונזיה",
+     "flag_code": "id",
+     "price_usd": 0.75,
+     "local_price": 0.75,
+     "local_currency": "USD"
+    }
+   ]
+  },
+  {
+   "item_id": "cappuccino",
+   "item_name": "קפוצ'ינו במסעדה",
+   "source": "Numbeo, Cost of Living Database",
+   "date": "2025-11-06",
+   "countries": [
+    {
+     "id": "kz",
+     "country_he": "קזחסטן",
+     "flag_code": "kz",
+     "price_usd": 2.43,
+     "local_price": 2.43,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pt",
+     "country_he": "פורטוגל",
+     "flag_code": "pt",
+     "price_usd": 2.17,
+     "local_price": 2.17,
+     "local_currency": "USD"
+    },
+    {
+     "id": "gr",
+     "country_he": "יוון",
+     "flag_code": "gr",
+     "price_usd": 4.0,
+     "local_price": 4.0,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lv",
+     "country_he": "לטביה",
+     "flag_code": "lv",
+     "price_usd": 3.29,
+     "local_price": 3.29,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ir",
+     "country_he": "איראן",
+     "flag_code": "ir",
+     "price_usd": 1.15,
+     "local_price": 1.15,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ma",
+     "country_he": "מרוקו",
+     "flag_code": "ma",
+     "price_usd": 1.72,
+     "local_price": 1.72,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pa",
+     "country_he": "פנמה",
+     "flag_code": "pa",
+     "price_usd": 3.96,
+     "local_price": 3.96,
+     "local_currency": "USD"
+    },
+    {
+     "id": "iq",
+     "country_he": "עיראק",
+     "flag_code": "iq",
+     "price_usd": 2.69,
+     "local_price": 2.69,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cl",
+     "country_he": "צ'ילה",
+     "flag_code": "cl",
+     "price_usd": 3.08,
+     "local_price": 3.08,
+     "local_currency": "USD"
+    },
+    {
+     "id": "np",
+     "country_he": "נפאל",
+     "flag_code": "np",
+     "price_usd": 1.4,
+     "local_price": 1.4,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ar",
+     "country_he": "ארגנטינה",
+     "flag_code": "ar",
+     "price_usd": 3.53,
+     "local_price": 3.53,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ua",
+     "country_he": "אוקראינה",
+     "flag_code": "ua",
+     "price_usd": 1.46,
+     "local_price": 1.46,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bh",
+     "country_he": "בחריין",
+     "flag_code": "bh",
+     "price_usd": 4.74,
+     "local_price": 4.74,
+     "local_currency": "USD"
+    },
+    {
+     "id": "in",
+     "country_he": "הודו",
+     "flag_code": "in",
+     "price_usd": 1.7,
+     "local_price": 1.7,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ca",
+     "country_he": "קנדה",
+     "flag_code": "ca",
+     "price_usd": 3.83,
+     "local_price": 3.83,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tr",
+     "country_he": "טורקיה",
+     "flag_code": "tr",
+     "price_usd": 3.6,
+     "local_price": 3.6,
+     "local_currency": "USD"
+    },
+    {
+     "id": "be",
+     "country_he": "בלגיה",
+     "flag_code": "be",
+     "price_usd": 4.28,
+     "local_price": 4.28,
+     "local_currency": "USD"
+    },
+    {
+     "id": "fi",
+     "country_he": "פינלנד",
+     "flag_code": "fi",
+     "price_usd": 5.09,
+     "local_price": 5.09,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tw",
+     "country_he": "טייוואן",
+     "flag_code": "tw",
+     "price_usd": 2.88,
+     "local_price": 2.88,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mk",
+     "country_he": "צפון מקדוניה",
+     "flag_code": "mk",
+     "price_usd": 1.78,
+     "local_price": 1.78,
+     "local_currency": "USD"
+    },
+    {
+     "id": "za",
+     "country_he": "דרום אפריקה",
+     "flag_code": "za",
+     "price_usd": 2.36,
+     "local_price": 2.36,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ge",
+     "country_he": "גאורגיה",
+     "flag_code": "ge",
+     "price_usd": 3.11,
+     "local_price": 3.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pe",
+     "country_he": "פרו",
+     "flag_code": "pe",
+     "price_usd": 3.01,
+     "local_price": 3.01,
+     "local_currency": "USD"
+    },
+    {
+     "id": "de",
+     "country_he": "גרמניה",
+     "flag_code": "de",
+     "price_usd": 4.16,
+     "local_price": 4.16,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pr",
+     "country_he": "פוארטו ריקו",
+     "flag_code": "pr",
+     "price_usd": 3.31,
+     "local_price": 3.31,
+     "local_currency": "USD"
+    },
+    {
+     "id": "us",
+     "country_he": "ארצות הברית",
+     "flag_code": "us",
+     "price_usd": 5.46,
+     "local_price": 5.46,
+     "local_currency": "USD"
+    },
+    {
+     "id": "th",
+     "country_he": "תאילנד",
+     "flag_code": "th",
+     "price_usd": 2.11,
+     "local_price": 2.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cr",
+     "country_he": "קוסטה ריקה",
+     "flag_code": "cr",
+     "price_usd": 4.41,
+     "local_price": 4.41,
+     "local_currency": "USD"
+    },
+    {
+     "id": "se",
+     "country_he": "שוודיה",
+     "flag_code": "se",
+     "price_usd": 4.87,
+     "local_price": 4.87,
+     "local_currency": "USD"
+    },
+    {
+     "id": "vn",
+     "country_he": "וייטנאם",
+     "flag_code": "vn",
+     "price_usd": 1.65,
+     "local_price": 1.65,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pl",
+     "country_he": "פולין",
+     "flag_code": "pl",
+     "price_usd": 3.83,
+     "local_price": 3.83,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bg",
+     "country_he": "בולגריה",
+     "flag_code": "bg",
+     "price_usd": 2.62,
+     "local_price": 2.62,
+     "local_currency": "USD"
+    },
+    {
+     "id": "jo",
+     "country_he": "ירדן",
+     "flag_code": "jo",
+     "price_usd": 3.54,
+     "local_price": 3.54,
+     "local_currency": "USD"
+    },
+    {
+     "id": "kw",
+     "country_he": "כווית",
+     "flag_code": "kw",
+     "price_usd": 5.15,
+     "local_price": 5.15,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ng",
+     "country_he": "ניגריה",
+     "flag_code": "ng",
+     "price_usd": 2.26,
+     "local_price": 2.26,
+     "local_currency": "USD"
+    },
+    {
+     "id": "tn",
+     "country_he": "תוניסיה",
+     "flag_code": "tn",
+     "price_usd": 0.97,
+     "local_price": 0.97,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hr",
+     "country_he": "קרואטיה",
+     "flag_code": "hr",
+     "price_usd": 2.57,
+     "local_price": 2.57,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lk",
+     "country_he": "סרי לנקה",
+     "flag_code": "lk",
+     "price_usd": 2.35,
+     "local_price": 2.35,
+     "local_currency": "USD"
+    },
+    {
+     "id": "uy",
+     "country_he": "אורוגוואי",
+     "flag_code": "uy",
+     "price_usd": 4.38,
+     "local_price": 4.38,
+     "local_currency": "USD"
+    },
+    {
+     "id": "gb",
+     "country_he": "בריטניה",
+     "flag_code": "gb",
+     "price_usd": 4.84,
+     "local_price": 4.84,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ae",
+     "country_he": "איחוד האמירויות",
+     "flag_code": "ae",
+     "price_usd": 5.47,
+     "local_price": 5.47,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ke",
+     "country_he": "קניה",
+     "flag_code": "ke",
+     "price_usd": 2.47,
+     "local_price": 2.47,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ch",
+     "country_he": "שוויץ",
+     "flag_code": "ch",
+     "price_usd": 6.29,
+     "local_price": 6.29,
+     "local_currency": "USD"
+    },
+    {
+     "id": "es",
+     "country_he": "ספרד",
+     "flag_code": "es",
+     "price_usd": 2.46,
+     "local_price": 2.46,
+     "local_currency": "USD"
+    },
+    {
+     "id": "az",
+     "country_he": "אזרבייג'ן",
+     "flag_code": "az",
+     "price_usd": 3.2,
+     "local_price": 3.2,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cu",
+     "country_he": "קובה",
+     "flag_code": "cu",
+     "price_usd": 1.73,
+     "local_price": 1.73,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ve",
+     "country_he": "ונצואלה",
+     "flag_code": "ve",
+     "price_usd": 2.57,
+     "local_price": 2.57,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cz",
+     "country_he": "צ'כיה",
+     "flag_code": "cz",
+     "price_usd": 3.24,
+     "local_price": 3.24,
+     "local_currency": "USD"
+    },
+    {
+     "id": "il",
+     "country_he": "ישראל",
+     "flag_code": "il",
+     "price_usd": 5.06,
+     "local_price": 5.06,
+     "local_currency": "USD"
+    },
+    {
+     "id": "au",
+     "country_he": "אוסטרליה",
+     "flag_code": "au",
+     "price_usd": 3.96,
+     "local_price": 3.96,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ee",
+     "country_he": "אסטוניה",
+     "flag_code": "ee",
+     "price_usd": 4.2,
+     "local_price": 4.2,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hk",
+     "country_he": "הונג קונג",
+     "flag_code": "hk",
+     "price_usd": 4.94,
+     "local_price": 4.94,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cy",
+     "country_he": "קפריסין",
+     "flag_code": "cy",
+     "price_usd": 3.94,
+     "local_price": 3.94,
+     "local_currency": "USD"
+    },
+    {
+     "id": "my",
+     "country_he": "מלזיה",
+     "flag_code": "my",
+     "price_usd": 2.83,
+     "local_price": 2.83,
+     "local_currency": "USD"
+    },
+    {
+     "id": "om",
+     "country_he": "עומאן",
+     "flag_code": "om",
+     "price_usd": 4.75,
+     "local_price": 4.75,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ba",
+     "country_he": "בוסניה והרצגובינה",
+     "flag_code": "ba",
+     "price_usd": 1.72,
+     "local_price": 1.72,
+     "local_currency": "USD"
+    },
+    {
+     "id": "am",
+     "country_he": "ארמניה",
+     "flag_code": "am",
+     "price_usd": 3.11,
+     "local_price": 3.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "at",
+     "country_he": "אוסטריה",
+     "flag_code": "at",
+     "price_usd": 4.78,
+     "local_price": 4.78,
+     "local_currency": "USD"
+    },
+    {
+     "id": "kr",
+     "country_he": "דרום קוריאה",
+     "flag_code": "kr",
+     "price_usd": 3.71,
+     "local_price": 3.71,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lu",
+     "country_he": "לוקסמבורג",
+     "flag_code": "lu",
+     "price_usd": 4.54,
+     "local_price": 4.54,
+     "local_currency": "USD"
+    },
+    {
+     "id": "br",
+     "country_he": "ברזיל",
+     "flag_code": "br",
+     "price_usd": 2.06,
+     "local_price": 2.06,
+     "local_currency": "USD"
+    },
+    {
+     "id": "dz",
+     "country_he": "אלג'יריה",
+     "flag_code": "dz",
+     "price_usd": 0.83,
+     "local_price": 0.83,
+     "local_currency": "USD"
+    },
+    {
+     "id": "si",
+     "country_he": "סלובניה",
+     "flag_code": "si",
+     "price_usd": 2.54,
+     "local_price": 2.54,
+     "local_currency": "USD"
+    },
+    {
+     "id": "co",
+     "country_he": "קולומביה",
+     "flag_code": "co",
+     "price_usd": 2.58,
+     "local_price": 2.58,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ec",
+     "country_he": "אקוודור",
+     "flag_code": "ec",
+     "price_usd": 2.61,
+     "local_price": 2.61,
+     "local_currency": "USD"
+    },
+    {
+     "id": "xk",
+     "country_he": "קוסובו",
+     "flag_code": "xk",
+     "price_usd": 1.63,
+     "local_price": 1.63,
+     "local_currency": "USD"
+    },
+    {
+     "id": "hu",
+     "country_he": "הונגריה",
+     "flag_code": "hu",
+     "price_usd": 2.68,
+     "local_price": 2.68,
+     "local_currency": "USD"
+    },
+    {
+     "id": "jp",
+     "country_he": "יפן",
+     "flag_code": "jp",
+     "price_usd": 3.11,
+     "local_price": 3.11,
+     "local_currency": "USD"
+    },
+    {
+     "id": "md",
+     "country_he": "מולדובה",
+     "flag_code": "md",
+     "price_usd": 1.91,
+     "local_price": 1.91,
+     "local_currency": "USD"
+    },
+    {
+     "id": "by",
+     "country_he": "בלארוס",
+     "flag_code": "by",
+     "price_usd": 2.17,
+     "local_price": 2.17,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mu",
+     "country_he": "מאוריציוס",
+     "flag_code": "mu",
+     "price_usd": 2.61,
+     "local_price": 2.61,
+     "local_currency": "USD"
+    },
+    {
+     "id": "al",
+     "country_he": "אלבניה",
+     "flag_code": "al",
+     "price_usd": 2.1,
+     "local_price": 2.1,
+     "local_currency": "USD"
+    },
+    {
+     "id": "nz",
+     "country_he": "ניו זילנד",
+     "flag_code": "nz",
+     "price_usd": 3.45,
+     "local_price": 3.45,
+     "local_currency": "USD"
+    },
+    {
+     "id": "it",
+     "country_he": "איטליה",
+     "flag_code": "it",
+     "price_usd": 2.04,
+     "local_price": 2.04,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sg",
+     "country_he": "סינגפור",
+     "flag_code": "sg",
+     "price_usd": 5.23,
+     "local_price": 5.23,
+     "local_currency": "USD"
+    },
+    {
+     "id": "eg",
+     "country_he": "מצרים",
+     "flag_code": "eg",
+     "price_usd": 1.52,
+     "local_price": 1.52,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bo",
+     "country_he": "בוליביה",
+     "flag_code": "bo",
+     "price_usd": 1.65,
+     "local_price": 1.65,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mt",
+     "country_he": "מלטה",
+     "flag_code": "mt",
+     "price_usd": 2.86,
+     "local_price": 2.86,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ru",
+     "country_he": "רוסיה",
+     "flag_code": "ru",
+     "price_usd": 2.75,
+     "local_price": 2.75,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sa",
+     "country_he": "ערב הסעודית",
+     "flag_code": "sa",
+     "price_usd": 3.7,
+     "local_price": 3.7,
+     "local_currency": "USD"
+    },
+    {
+     "id": "nl",
+     "country_he": "הולנד",
+     "flag_code": "nl",
+     "price_usd": 4.29,
+     "local_price": 4.29,
+     "local_currency": "USD"
+    },
+    {
+     "id": "pk",
+     "country_he": "פקיסטן",
+     "flag_code": "pk",
+     "price_usd": 1.95,
+     "local_price": 1.95,
+     "local_currency": "USD"
+    },
+    {
+     "id": "cn",
+     "country_he": "סין",
+     "flag_code": "cn",
+     "price_usd": 2.96,
+     "local_price": 2.96,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ie",
+     "country_he": "אירלנד",
+     "flag_code": "ie",
+     "price_usd": 4.56,
+     "local_price": 4.56,
+     "local_currency": "USD"
+    },
+    {
+     "id": "qa",
+     "country_he": "קטאר",
+     "flag_code": "qa",
+     "price_usd": 5.46,
+     "local_price": 5.46,
+     "local_currency": "USD"
+    },
+    {
+     "id": "sk",
+     "country_he": "סלובקיה",
+     "flag_code": "sk",
+     "price_usd": 2.96,
+     "local_price": 2.96,
+     "local_currency": "USD"
+    },
+    {
+     "id": "fr",
+     "country_he": "צרפת",
+     "flag_code": "fr",
+     "price_usd": 3.96,
+     "local_price": 3.96,
+     "local_currency": "USD"
+    },
+    {
+     "id": "lt",
+     "country_he": "ליטא",
+     "flag_code": "lt",
+     "price_usd": 3.71,
+     "local_price": 3.71,
+     "local_currency": "USD"
+    },
+    {
+     "id": "rs",
+     "country_he": "סרביה",
+     "flag_code": "rs",
+     "price_usd": 2.39,
+     "local_price": 2.39,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ro",
+     "country_he": "רומניה",
+     "flag_code": "ro",
+     "price_usd": 2.94,
+     "local_price": 2.94,
+     "local_currency": "USD"
+    },
+    {
+     "id": "ph",
+     "country_he": "הפיליפינים",
+     "flag_code": "ph",
+     "price_usd": 2.28,
+     "local_price": 2.28,
+     "local_currency": "USD"
+    },
+    {
+     "id": "uz",
+     "country_he": "אוזבקיסטן",
+     "flag_code": "uz",
+     "price_usd": 2.13,
+     "local_price": 2.13,
+     "local_currency": "USD"
+    },
+    {
+     "id": "bd",
+     "country_he": "בנגלדש",
+     "flag_code": "bd",
+     "price_usd": 1.82,
+     "local_price": 1.82,
+     "local_currency": "USD"
+    },
+    {
+     "id": "no",
+     "country_he": "נורווגיה",
+     "flag_code": "no",
+     "price_usd": 5.55,
+     "local_price": 5.55,
+     "local_currency": "USD"
+    },
+    {
+     "id": "dk",
+     "country_he": "דנמרק",
+     "flag_code": "dk",
+     "price_usd": 6.62,
+     "local_price": 6.62,
+     "local_currency": "USD"
+    },
+    {
+     "id": "do",
+     "country_he": "הרפובליקה הדומיניקנית",
+     "flag_code": "do",
+     "price_usd": 2.16,
+     "local_price": 2.16,
+     "local_currency": "USD"
+    },
+    {
+     "id": "mx",
+     "country_he": "מקסיקו",
+     "flag_code": "mx",
+     "price_usd": 3.8,
+     "local_price": 3.8,
+     "local_currency": "USD"
+    },
+    {
+     "id": "zw",
+     "country_he": "זימבבואה",
+     "flag_code": "zw",
+     "price_usd": 2.64,
+     "local_price": 2.64,
+     "local_currency": "USD"
+    },
+    {
+     "id": "me",
+     "country_he": "מונטנגרו",
+     "flag_code": "me",
+     "price_usd": 2.59,
+     "local_price": 2.59,
+     "local_currency": "USD"
+    },
+    {
+     "id": "id",
+     "country_he": "אינדונזיה",
+     "flag_code": "id",
+     "price_usd": 1.57,
+     "local_price": 1.57,
+     "local_currency": "USD"
+    }
+   ]
+  },
+  {
+   "item_id": "iphone",
+   "item_name": "אייפון 17 פרו (256GB)",
+   "source": "מחירי חנויות Apple רשמיות, ניתוח Deutsche Bank, 41 שווקים",
+   "date": "2026-08-09",
+   "countries": [
+    {
+     "id": "tr",
+     "country_he": "טורקיה",
+     "flag_code": "tr",
+     "price_usd": 2592
+    },
+    {
+     "id": "br",
+     "country_he": "ברזיל",
+     "flag_code": "br",
+     "price_usd": 2260
+    },
+    {
+     "id": "eg",
+     "country_he": "מצרים",
+     "flag_code": "eg",
+     "price_usd": 1872
+    },
+    {
+     "id": "us",
+     "country_he": "ארצות הברית",
+     "flag_code": "us",
+     "price_usd": 1181
+    },
+    {
+     "id": "jp",
+     "country_he": "יפן",
+     "flag_code": "jp",
+     "price_usd": 1121
+    },
+    {
+     "id": "ca",
+     "country_he": "קנדה",
+     "flag_code": "ca",
+     "price_usd": 798
+    }
+   ]
+  }
+ ]
+}

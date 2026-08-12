@@ -1,0 +1,10 @@
+[
+  {"id":"chicken-whole","name":"עוף שלם טרי, לק\"ג","category":"בשר ועוף","price_ils":22.90,"source":"מחסני מזון","date_checked":"2026-08","image_query":"whole raw chicken package"},
+  {"id":"cheese-yellow","name":"גבינה צהובה עמק 28%, 200 גרם","category":"מוצרי חלב","price_ils":19.90,"source":"Wolt Market / chp.co.il","date_checked":"2026-08","image_query":"sliced yellow cheese package"},
+  {"id":"cornflakes-telma","name":"קורנפלקס תלמה, 500 גרם","category":"דגני בוקר","price_ils":15.90,"source":"Victory Online","date_checked":"2026-08","image_query":"cornflakes cereal box"},
+  {"id":"tahini-achva","name":"טחינה גולמית אחוה, 500 גרם","category":"מוצרי יסוד","price_ils":9.90,"source":"pricez.co.il","date_checked":"2026-08","image_query":"tahini jar"},
+  {"id":"hummus-achla","name":"חומוס אחלה עם טחינה, 400 גרם","category":"סלטים ומטבלים","price_ils":13.90,"source":"pricez.co.il","date_checked":"2026-08","image_query":"hummus container"},
+  {"id":"yogurt-danone","name":"יוגורט דנונה 3%, 200 גרם","category":"מוצרי חלב","price_ils":3.91,"source":"pricez.co.il","date_checked":"2026-08","image_query":"yogurt cup"},
+  {"id":"shampoo-head-shoulders","name":"שמפו הד אנד שולדרס קלאסי, 500 מ\"ל","category":"טיפוח","price_ils":29.00,"source":"רמי לוי אונליין","date_checked":"2026-08","image_query":"shampoo bottle"},
+  {"id":"rice-basmati","name":"אורז בסמטי מלא סוגת, 1 ק\"ג","category":"מוצרי יסוד","price_ils":15.90,"source":"pricez.co.il","date_checked":"2026-08","image_query":"basmati rice bag"}
+]
