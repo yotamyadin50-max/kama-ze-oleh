@@ -195,6 +195,13 @@
   const tabbar = document.getElementById("tabbar");
   const overflowBtn = document.getElementById("overflow-btn");
 
+  const ROUTE_TITLES = {
+    home: "כמה זה עולה", play: "איך רוצים לשחק? · כמה זה עולה", round: "כמה זה עולה",
+    vs: "VS: נגד יריב אמיתי · כמה זה עולה", daily: "האתגר היומי · כמה זה עולה",
+    stats: "ההתקדמות שלי · כמה זה עולה", about: "מאיפה המחירים באמת מגיעים · כמה זה עולה",
+    settings: "הגדרות · כמה זה עולה", privacy: "מדיניות פרטיות · כמה זה עולה"
+  };
+
   function setChrome(routeName) {
     const immersive = routeName === "round";
     tabbar.classList.toggle("hidden", immersive);
@@ -203,6 +210,7 @@
       el.classList.toggle("active", el.dataset.tab === routeName);
     });
     view.classList.toggle("immersive", immersive);
+    document.title = ROUTE_TITLES[routeName] || "כמה זה עולה";
   }
 
   function renderHome() {

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yotamyadin50-max.github.io/kama-ze-oleh/sitemap.xml
