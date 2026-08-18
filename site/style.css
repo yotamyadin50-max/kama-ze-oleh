@@ -16,6 +16,7 @@
   --teal-dark: #075E51;
   --accent: #F5B300;
   --accent-dark: #D69B00;
+  --accent-deep: #8A5D00; /* for accent-family TEXT on light backgrounds: --accent/--accent-dark both fail WCAG 3:1 there (verified: 1.76:1 / 2.38:1), this passes at 5.67:1 */
   --muted: #7A6852;
   --success: #1B7A44;
   --error: #C13A22;
@@ -93,8 +94,9 @@ a { color: var(--primary); }
 .daily-teaser {
   display: inline-flex; align-items: center; gap: 6px; margin: var(--space-3) auto 0;
   background: var(--accent); color: var(--ink); border-radius: 999px; padding: 6px 16px;
-  font-size: 14px; font-weight: 700; width: fit-content;
+  font-size: 14px; font-weight: 700; width: fit-content; text-decoration: none; cursor: pointer;
 }
+.daily-teaser:hover { filter: brightness(0.96); }
 .mode-cards { display: flex; flex-direction: column; gap: var(--space-2); margin: var(--space-4) 0; }
 @media (min-width: 640px) { .mode-cards { flex-direction: row; } }
 .mode-card {
@@ -112,6 +114,7 @@ a { color: var(--primary); }
 .mode-card.mode-comparison strong { color: var(--teal-dark); }
 .mode-card.mode-duel { border-bottom-color: var(--primary); }
 .mode-card.mode-duel strong { color: var(--primary-dark); }
+.unavailable-tag { display: inline-block; font-size: 11px; font-weight: 700; color: var(--muted); background: var(--surface-2); border-radius: 999px; padding: 2px 8px; margin-inline-start: 6px; vertical-align: middle; }
 
 footer.page-footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: var(--space-6); padding-bottom: var(--space-4); }
 footer.page-footer a { color: var(--muted); margin: 0 8px; }
@@ -129,7 +132,7 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .track-card span.desc { color: var(--muted); font-size: 14px; }
 .round-len-picker { display: flex; gap: 8px; justify-content: center; margin: var(--space-3) 0; }
 .pill {
-  padding: 8px 20px; border-radius: 999px; border: 2px solid var(--primary); background: transparent;
+  padding: 8px 20px; min-height: 44px; border-radius: 999px; border: 2px solid var(--primary); background: transparent;
   color: var(--primary); font-family: var(--font-mono); font-weight: 700; cursor: pointer;
 }
 .pill.selected { background: var(--primary); color: #fff; }
@@ -141,7 +144,7 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .mix-label { text-align: center; font-size: 13px; color: var(--muted); line-height: 1.4; }
 .mix-label strong { font-size: 20px; color: var(--ink); }
 .mix-steppers { display: flex; gap: 8px; }
-.mix-steppers .step-btn { width: 36px; height: 36px; font-size: 18px; }
+.mix-steppers .step-btn { width: 44px; height: 44px; font-size: 18px; }
 
 /* ===== Round Loop ===== */
 .round-topbar {
@@ -157,6 +160,8 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .round-stage { padding: var(--space-3) 0; }
 .product-image-wrap { width: 100%; aspect-ratio: 1/1; max-height: 45vh; border-radius: var(--radius-lg); overflow: hidden; margin-bottom: var(--space-3); background: var(--surface); }
 .product-image-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.product-image-wrap.img-broken { display: flex; align-items: center; justify-content: center; }
+.product-image-wrap.img-broken::after { content: "🖼️"; font-size: 40px; opacity: 0.4; }
 .product-name { text-align: center; margin-bottom: var(--space-3); }
 .attribution { text-align: center; font-size: 11px; color: var(--muted); margin-top: -8px; margin-bottom: var(--space-2); }
 .attribution a { color: var(--muted); }
@@ -175,7 +180,7 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
   text-align: center; cursor: pointer; border: 3px solid transparent; box-shadow: var(--shadow);
 }
 .country-card.chosen { border-color: var(--primary); }
-.country-card img.flag { width: 64px; border-radius: 4px; margin-bottom: 8px; }
+.country-card img.flag { width: 64px; height: 48px; object-fit: cover; border-radius: 4px; margin-bottom: 8px; }
 .country-card strong { display: block; font-family: var(--font-head); font-size: 16px; }
 
 /* Reveal */
@@ -203,6 +208,7 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 /* ===== Set Results ===== */
 .results-score { text-align: center; margin: var(--space-3) 0; }
 .results-score .big-score { font-family: var(--font-mono); font-size: 56px; font-weight: 700; color: var(--primary); }
+.score-caption { color: var(--muted); font-size: 13px; margin-top: -4px; }
 .new-high-badge {
   display: inline-block; background: var(--accent); color: var(--ink); font-family: var(--font-head);
   font-weight: 700; padding: 6px 18px; border-radius: 999px; margin-bottom: 8px;
@@ -218,7 +224,7 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .share-cell.tier4, .share-cell.wrong { background: var(--error); }
 
 /* ===== Daily ===== */
-.daily-streak-count { text-align: center; font-family: var(--font-mono); font-size: 64px; font-weight: 700; color: var(--accent); margin: var(--space-3) 0 0; }
+.daily-streak-count { text-align: center; font-family: var(--font-mono); font-size: 64px; font-weight: 700; color: var(--accent-deep); margin: var(--space-3) 0 0; }
 .daily-streak-label { text-align: center; color: var(--muted); margin-bottom: var(--space-3); }
 .week-board { display: flex; justify-content: center; gap: 8px; margin: var(--space-3) 0; }
 .week-day { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: var(--surface); color: var(--muted); font-size: 14px; }
@@ -239,7 +245,8 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .source-list { list-style: none; padding: 0; }
 .source-list li { padding: 8px 0; border-bottom: 1px solid var(--surface); }
 .honesty-box { background: var(--surface); border-radius: var(--radius); padding: var(--space-2) var(--space-3); margin: var(--space-3) 0; }
-.settings-row { display: flex; justify-content: space-between; align-items: center; padding: var(--space-2) 0; border-bottom: 1px solid var(--surface); }
+.settings-row { display: flex; justify-content: space-between; align-items: center; gap: var(--space-2); padding: var(--space-2) 0; border-bottom: 1px solid var(--surface); cursor: pointer; }
+.settings-row-note { display: block; font-size: 12px; font-weight: 400; color: var(--muted); margin-top: 2px; }
 .toggle { position: relative; width: 48px; height: 28px; }
 .toggle input { opacity: 0; width: 0; height: 0; }
 .toggle .track { position: absolute; inset: 0; background: var(--info); border-radius: 999px; cursor: pointer; transition: background 150ms; }
@@ -260,8 +267,8 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .tab-icon { font-size: 20px; }
 
 .overflow-btn {
-  position: fixed; top: var(--space-2); left: var(--space-2); z-index: 90;
-  width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--surface);
+  position: fixed; top: calc(var(--space-2) + env(safe-area-inset-top)); left: var(--space-2); z-index: 90;
+  width: 44px; height: 44px; border-radius: 50%; border: none; background: var(--surface);
   color: var(--ink); font-size: 20px; cursor: pointer; box-shadow: var(--shadow);
 }
 .overflow-btn.hidden { display: none; }
@@ -303,7 +310,7 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .vs-hp-fill.opp { background: var(--pink); }
 .vs-hp-fill.low { background: var(--error); }
 .vs-hp-num { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin-top: 2px; }
-.vs-vs-badge { font-family: var(--font-head); font-weight: 800; color: var(--accent-dark); font-size: 20px; }
+.vs-vs-badge { font-family: var(--font-head); font-weight: 800; color: var(--accent-deep); font-size: 20px; }
 
 .vs-timer { text-align: center; font-family: var(--font-mono); font-size: 48px; font-weight: 700; color: var(--primary); margin: var(--space-2) 0; }
 .vs-timer.urgent { color: var(--error); animation: vsPulse 500ms ease-in-out infinite; }
@@ -322,3 +329,22 @@ footer.page-footer a { color: var(--muted); margin: 0 8px; }
 .vs-end-title.lose { color: var(--error); }
 .vs-end-title.draw { color: var(--muted); }
 @media (prefers-reduced-motion: reduce) { .confetti-piece { animation: none; display: none; } }
+
+/* ===== Focus visibility on custom interactive elements ===== */
+.track-card:focus-visible, .country-card:focus-visible, .mode-card:focus-visible,
+.tab-item:focus-visible, .drawer-link:focus-visible, .daily-teaser:focus-visible {
+  outline: 3px solid var(--primary); outline-offset: 2px;
+}
+
+/* ===== Reduced motion: in-app Settings toggle, not just the OS-level media query =====
+   Mirrors every @media (prefers-reduced-motion: reduce) rule above, plus the two
+   animations that previously had no reduced-motion handling of any kind (streak-break
+   fade, loading skeleton), all driven by the .reduced-motion class the Settings toggle
+   actually sets — the toggle previously only ever gated confetti in JS. */
+html.reduced-motion .needle { transition: none !important; }
+html.reduced-motion .reveal-panel { animation: none !important; }
+html.reduced-motion .vs-search-anim { animation: none; border-top-color: var(--surface-2); }
+html.reduced-motion .vs-timer.urgent { animation: none; }
+html.reduced-motion .confetti-piece { animation: none; display: none; }
+html.reduced-motion .round-topbar .streak.broken { animation: none !important; }
+html.reduced-motion .skeleton { animation: none; background: var(--surface); }

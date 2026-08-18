@@ -55,6 +55,7 @@ function resolveRound(duel) {
   const g2 = duel.guesses[p2];
   const closeness = (g) => {
     if (g === undefined || g === null || isNaN(g)) return 0;
+    if (actual === 0) return g === 0 ? 1 : 0; // guard: no shipped product is free, but never divide by zero if one ever is
     return Math.max(0, 1 - Math.abs(g - actual) / actual);
   };
   const c1 = closeness(g1);
@@ -93,6 +94,13 @@ function resolveRound(duel) {
 }
 
 function tryMatchmake() {
+  // Prune entries that joined but whose SSE stream never opened (flaky network, an
+  // ad-blocker/proxy blocking SSE, a killed tab) — otherwise a join with no matching
+  // stream sits in `queue` forever, growing unboundedly on a long-running server.
+  const STALE_MS = 60000;
+  for (let i = queue.length - 1; i >= 0; i--) {
+    if (!sseClients.has(queue[i].playerId) && Date.now() - queue[i].joinedAt > STALE_MS) queue.splice(i, 1);
+  }
   // Only match players whose SSE stream is actually open (real, not assumed):
   // a join POST can arrive before that same tab's own SSE GET has finished registering,
   // so filtering here (instead of dropping the other queued player when this fails)
@@ -185,8 +193,9 @@ const server = http.createServer(async (req, res) => {
     try {
       const { playerId, playerName } = await readJsonBody(req);
       if (!playerId) return sendJson(res, 400, { error: 'missing playerId' });
+      const safeName = (typeof playerName === 'string' && playerName.trim()) ? playerName.trim().slice(0, 40) : 'שחקן';
       if (!queue.find(q => q.playerId === playerId) && !findDuelByPlayer(playerId)) {
-        queue.push({ playerId, playerName: playerName || 'שחקן' });
+        queue.push({ playerId, playerName: safeName, joinedAt: Date.now() });
       }
       tryMatchmake();
       sendJson(res, 200, { status: 'ok' });

@@ -1140,24 +1140,6 @@
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/NUO58_L_P_7290019816393_1.png"
  },
  {
-  "id": "sf1-102",
-  "name": "גלידת מאגדת מיני ביסקWיץ",
-  "category": "גלידה",
-  "price_ils": 24.9,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/XAM56_L_P_4820077162199_1.png"
- },
- {
-  "id": "sf1-103",
-  "name": "מאגדת קולWיץ'וניל סנדויץ",
-  "category": "גלידה",
-  "price_ils": 24.9,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/WTJ42_L_P_4820077162014_1.png"
- },
- {
   "id": "sf1-104",
   "name": "מאגדת קוקי מיקס",
   "category": "גלידה",
@@ -1375,7 +1357,7 @@
  },
  {
   "id": "sf1-128",
-  "name": "גלידל  דובדבן 8יח",
+  "name": "גלידל דובדבן 8יח",
   "category": "גלידה",
   "price_ils": 27.9,
   "source": "Shufersal Online",
@@ -2104,7 +2086,7 @@
  },
  {
   "id": "sf2-69",
-  "name": "פריימר ג'לי  PORELESS",
+  "name": "פריימר ג'לי PORELESS",
   "category": "ממתקים",
   "price_ils": 60.0,
   "source": "Shufersal Online",
@@ -2707,7 +2689,7 @@
  },
  {
   "id": "sf3-21",
-  "name": "גל כביסה+מרכך  TNX  No06",
+  "name": "גל כביסה+מרכך TNX No06",
   "category": "ניקיון",
   "price_ils": 39.9,
   "source": "Shufersal Online",
@@ -2716,7 +2698,7 @@
  },
  {
   "id": "sf3-22",
-  "name": "גל כביסה+מרכך TNX  No02",
+  "name": "גל כביסה+מרכך TNX No02",
   "category": "ניקיון",
   "price_ils": 39.9,
   "source": "Shufersal Online",
@@ -3039,15 +3021,6 @@
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/SMC56_L_P_7290020188649_1.png"
  },
  {
-  "id": "sf3-58",
-  "name": "פניני בישום לכביסהVELVET",
-  "category": "ניקיון",
-  "price_ils": 19.9,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/SMX50_L_P_7290020188670_1.png"
- },
- {
   "id": "sf3-59",
   "name": "פניני בישום לכביסה PURE",
   "category": "ניקיון",
@@ -3073,15 +3046,6 @@
   "source": "Shufersal Online",
   "date_checked": "2026-08",
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/DTZ48_L_P_7290020495082_1.png"
- },
- {
-  "id": "sf3-62",
-  "name": "פניני בישום לכביסהBREEZE",
-  "category": "ניקיון",
-  "price_ils": 59.9,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/DUW44_L_P_7290020495105_1.png"
  },
  {
   "id": "sf3-63",
@@ -3244,15 +3208,6 @@
   "source": "Shufersal Online",
   "date_checked": "2026-08",
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/TPG46_L_P_7290108350623_1.png"
- },
- {
-  "id": "sf3-81",
-  "name": "מרכך כביסה מרוכזLOVELY",
-  "category": "ניקיון",
-  "price_ils": 18.9,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/FBT58_L_P_7290108358384_1.png"
  },
  {
   "id": "sf3-82",
@@ -6010,7 +5965,7 @@
  },
  {
   "id": "sf5-67",
-  "name": "פסטה ניוקטי סרדי  קונכיה",
+  "name": "פסטה ניוקטי סרדי קונכיה",
   "category": "פסטה ואורז",
   "price_ils": 8.9,
   "source": "Shufersal Online",
@@ -7440,15 +7395,6 @@
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/ACB52_L_P_7290019297420_1.png"
  },
  {
-  "id": "sf7-28",
-  "name": "מעדן 4 פירות 100% פרי  (",
-  "category": "ריבה ודבש",
-  "price_ils": 9.9,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/DQR58_L_P_7290016276756_1.png"
- },
- {
   "id": "sf7-29",
   "name": "מעדן שזיף 100%פרי",
   "category": "ריבה ודבש",
@@ -7648,7 +7594,7 @@
  },
  {
   "id": "sf7-51",
-  "name": "תענוג פרי  פירות יער",
+  "name": "תענוג פרי פירות יער",
   "category": "ריבה ודבש",
   "price_ils": 24.9,
   "source": "Shufersal Online",
@@ -9547,7 +9493,7 @@
  },
  {
   "id": "sf11-32",
-  "name": "חיתולי בייביסיטר  מידה 5",
+  "name": "חיתולי בייביסיטר מידה 5",
   "category": "חיתולים",
   "price_ils": 33.9,
   "source": "Shufersal Online",
@@ -10312,7 +10258,7 @@
  },
  {
   "id": "sf12-52",
-  "name": "חטיפי  דגנים ליון",
+  "name": "חטיפי דגנים ליון",
   "category": "חטיפי דגנים",
   "price_ils": 17.5,
   "source": "Shufersal Online",
@@ -16423,7 +16369,7 @@
  },
  {
   "id": "sf25-36",
-  "name": "שמפו  לשיער רגיל עד יבש",
+  "name": "שמפו לשיער רגיל עד יבש",
   "category": "טיפוח שיער",
   "price_ils": 69.9,
   "source": "Shufersal Online",
@@ -17719,7 +17665,7 @@
  },
  {
   "id": "sf29-3",
-  "name": "נורת LED 10W  אור לבן",
+  "name": "נורת LED 10W אור לבן",
   "category": "לבית",
   "price_ils": 9.9,
   "source": "Shufersal Online",
@@ -17727,17 +17673,8 @@
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/HHG48_L_P_7290114722391_1.png"
  },
  {
-  "id": "sf29-4",
-  "name": "נורת נר לדE14 7Wאור צהוב",
-  "category": "לבית",
-  "price_ils": 9.9,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/IGS44_L_P_7290114723053_1.png"
- },
- {
   "id": "sf29-5",
-  "name": "נורת נר לד E14 7W  לבן",
+  "name": "נורת נר לד E14 7W לבן",
   "category": "לבית",
   "price_ils": 9.9,
   "source": "Shufersal Online",
@@ -17800,7 +17737,7 @@
  },
  {
   "id": "sf29-12",
-  "name": "תבנית אינגליש קייק  29.5",
+  "name": "תבנית אינגליש קייק 29.5",
   "category": "לבית",
   "price_ils": 19.9,
   "source": "Shufersal Online",
@@ -17845,7 +17782,7 @@
  },
  {
   "id": "sf29-17",
-  "name": "תבנית אפיה  עגולה",
+  "name": "תבנית אפיה עגולה",
   "category": "לבית",
   "price_ils": 126.65,
   "source": "Shufersal Online",
@@ -18618,24 +18555,6 @@
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/UZR60_L_P_7296073733850_1.png"
  },
  {
-  "id": "sf30-48",
-  "name": "MBתחליב רחצה סחלבים",
-  "category": "סבון ורחצה",
-  "price_ils": 15.5,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/OMR50_L_P_7290017637440_1.png"
- },
- {
-  "id": "sf30-49",
-  "name": "MBתחליב רחצה יסמין",
-  "category": "סבון ורחצה",
-  "price_ils": 15.5,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/OON62_L_P_7290017637488_1.png"
- },
- {
   "id": "sf30-50",
   "name": "תחליב רחצה קוקוס",
   "category": "סבון ורחצה",
@@ -18879,15 +18798,6 @@
   "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/LTE36_L_P_602004126573_1.png"
  },
  {
-  "id": "sf31-4",
-  "name": "INFALLIBLEספרי מקבע אפור",
-  "category": "איפור",
-  "price_ils": 72.25,
-  "source": "Shufersal Online",
-  "date_checked": "2026-08",
-  "image": "https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_large/HPZ46_L_P_3600524244538_1.png"
- },
- {
   "id": "sf31-5",
   "name": "ספריי מקבע איפור",
   "category": "איפור",
@@ -18970,7 +18880,7 @@
  },
  {
   "id": "sf31-14",
-  "name": "MAKE UP  01 ספריי מקבע",
+  "name": "MAKE UP 01 ספריי מקבע",
   "category": "איפור",
   "price_ils": 50.0,
   "source": "Shufersal Online",
@@ -19078,7 +18988,7 @@
  },
  {
   "id": "sf31-26",
-  "name": "מייק אפ בסיס  05",
+  "name": "מייק אפ בסיס 05",
   "category": "איפור",
   "price_ils": 29.95,
   "source": "Shufersal Online",
